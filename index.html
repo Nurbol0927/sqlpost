@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="kg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экзаменге Даярдык</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .question {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .answer {
+            margin-top: 5px;
+            padding: 10px;
+            background: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Экзаменге Даярдык</h1>
+        
+        <div class="question">1. VCS деген эмне? Ал эмне үчүн чыгарылган?</div>
+        <div class="answer">VCS (Version Control System) – бул файлдардын жана коддун өзгөрүүлөрүн көзөмөлдөөчү система. Бул командалык иштешүүнү жакшыртуу жана мурунку версияларга кайтып келүү үчүн колдонулат.</div>
+        
+        <div class="question">2. Git деген эмне?</div>
+        <div class="answer">Git – бул таратылган версияны башкаруу системасы, ал коддун өзгөрүүлөрүн көзөмөлдөйт жана иштеп чыгуучуларга биргелешип иштөөгө жардам берет.</div>
+        
+        <div class="question">3. GitHub деген эмне?</div>
+        <div class="answer">GitHub – бул Git репозиторийлерин сактоо жана алар менен иштөө үчүн булуттык платформа.</div>
+        
+        <div class="question">4. Репозиторий деген эмне?</div>
+        <div class="answer">Репозиторий – бул Git менен башкарылуучу папка, анда бардык файлдар жана алардын өзгөрүүлөрү сакталат.</div>
+        
+        <div class="question">5. Branch деген эмне?</div>
+        <div class="answer">Branch (ветка) – бул негизги коддон бөлүнүп, өз алдынча иштөөгө мүмкүнчүлүк берген өзгөрүүлөрдүн тармагы.</div>
+        
+        <div class="question">6. Master ветка деген эмне?</div>
+        <div class="answer">Master – бул долбоордун негизги жана туруктуу версиясы сакталуучу ветка.</div>
+        
+        <div class="question">7. Owner деген ким?</div>
+        <div class="answer">Owner – бул GitHub репозиторийинин ээси, ал бардык укуктарга ээ.</div>
+        
+        <div class="question">8. Collaborator деген ким?</div>
+        <div class="answer">Collaborator – бул репозиторий менен иштөөгө уруксат алган колдонуучу.</div>
+        
+        <div class="question">9. Git тин кандай командалары бар?</div>
+        <div class="answer">
+            <ul>
+                <li><b>git init</b> – жаңы репозиторий түзөт.</li>
+                <li><b>git clone</b> – бар репозиторийди көчүрөт.</li>
+                <li><b>git add</b> – өзгөртүлгөн файлдарды stage кылат.</li>
+                <li><b>git commit</b> – өзгөрүүлөрдү сактайт.</li>
+                <li><b>git push</b> – өзгөрүүлөрдү алыстагы репозиторийге жиберет.</li>
+                <li><b>git pull</b> – алыстагы өзгөрүүлөрдү жүктөп алат.</li>
+            </ul>
+        </div>
+        
+        <div class="question">10. БД деген эмне?</div>
+        <div class="answer">База данных (БД) – бул структураланган маалыматтар топтому, аларды сактоо жана башкаруу үчүн колдонулат.</div>
+        
+        <div class="question">11. СУБД деген эмне?</div>
+        <div class="answer">Система управления базами данных (СУБД) – бул маалыматтарды башкаруучу программа (PostgreSQL, MySQL, Oracle ж.б.).</div>
+        
+        <div class="question">12. СУБД менен РСУБД ның айырмасы?</div>
+        <div class="answer">Реляциялык СУБД (РСУБД) – бул маалыматтарды таблицалар түрүндө сактаган СУБД (PostgreSQL, MySQL ж.б.).</div>
+        
+        <div class="question">13. PostgreSQL деген эмне?</div>
+        <div class="answer">PostgreSQL – бул ачык булактуу реляциялык маалымат базасынын башкаруу системасы.</div>
+        
+        <div class="question">14. SQL деген эмне?</div>
+        <div class="answer">SQL (Structured Query Language) – бул маалымат базасын башкаруу үчүн колдонулган тил.</div>
+        
+        <div class="question">15. SQL кандай болуп бөлүнөт?</div>
+        <div class="answer">SQL негизги 3 бөлүккө бөлүнөт: DDL (маалымат структурасын түзүү), DML (маалымат менен иштөө), DCL (укуктарды башкаруу).</div>
+        
+        <div class="question">16. DDL жана DML деген эмне?</div>
+        <div class="answer">DDL (Data Definition Language): CREATE, ALTER, DROP. DML (Data Manipulation Language): INSERT, UPDATE, DELETE.</div>
+        
+        <div class="question">17. Data Types (varchar, numeric, serial ж.б.)</div>
+        <div class="answer">PostgreSQL маалымат түрлөрүнө varchar, numeric, integer, serial ж.б. кирет.</div>
+        
+        <div class="question">18. Primary Key жана Foreign Key эмне?</div>
+        <div class="answer">Primary Key – таблицанын уникалдуу идентификатору, Foreign Key – башка таблицага байланышы.</div>
+        
+        <div class="question">19. Кандай Constraints (ограничение) бар?</div>
+        <div class="answer">NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT.</div>
+        
+        <div class="question">20. Join деген эмне?</div>
+        <div class="answer">JOIN – бул SQLде эки же андан көп таблицаларды бириктирүү операциясы.</div>
+        
+        <div class="question">21. Join дын түрлөрү</div>
+        <div class="answer">INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN.</div>
+        
+        <div class="question">22. Подзапрос деген эмне?</div>
+        <div class="answer">Подзапрос – бул башка SQL суроосунун ичинде колдонулган суроо.</div>
+        
+        <div class="question">23. Аггрегатные функции деген эмне?</div>
+        <div class="answer">SUM, COUNT, AVG, MAX, MIN – бул функциялар маалыматтардын жыйынтыктарын эсептөө үчүн колдонулат.</div>
+    </div>
+</body>
+</html>
